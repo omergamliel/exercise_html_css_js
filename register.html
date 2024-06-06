@@ -1,0 +1,43 @@
+<!-------------------עבודה להגשה 1 טכנולוגיות אינטרנט------------------->
+
+<!-- הגדרות תצוגת עמוד -->
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<!----------------------שורש האתר- לא חשוף למשתמש ---------------------->
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>הרשמה | אולפני ההצלחה בע"מ</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/big_logo.png" alt="לוגו האתר">
+    </header>
+    <div class="container">
+        <h2>הרשמה למערכת</h2>
+        <form id="registrationForm">
+            <label for="username">שם משתמש:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">כתובת מייל:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">סיסמא:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirmPassword">אימות סיסמא:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <button type="button" id="login" class="btn btn-primary" onclick="handle_register(event)">הרשמה</button>
+        </form>
+    </div>
+    <footer>
+        <img src="images/emeky_logo.png" alt="לוגו מכללה" height="20px" width="20px">
+        <p>נוצר על ידי עומר גמליאל | תרגיל בית 1 טכנולוגיות אינטרנט</p>
+    </footer>
+
+        <!-- Bootstrap JS and dependencies -->
+        <script src="JavaScript/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!-------------------עבודה להגשה 1 טכנולוגיות אינטרנט------------------->
+
+<!-- הגדרות תצוגת עמוד -->
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<!----------------------שורש האתר- לא חשוף למשתמש ---------------------->
+  <head>
+    <meta charset="utf-8">
+    <!-- קישור לקובץ העיצוב של העמוד -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- הגדרת כותרת העמוד בדפדפן -->
+    <title>התחברות | אולפני ההצלחה בע"מ</title>
+  </head>
+
+<!---------------------- גוף האתר- לא חשוף למשתמש---------------------->
+  <body>
+    <header>
+      <!-- תמונת לוגו האתר -->
+      <img src="images/big_logo.png" alt="לוגו האתר">
+    </header>
+    <!-- הגדרת קונטיינר המכיל 2 סקשנים -->
+    <div class="container">
+      <!-- סקשן התחברות -->
+      <section class="login">
+        <h2>התחברות משתמשים</h2>
+        <!-- טופס התחברות -->
+        <form id="loginForm">
+          <label for="email">כתובת מייל</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">סיסמה</label>
+          <input type="password" id="password" name="password" required>
+          <!-- בעת לחיצה על הכפתור- שליחת הקלט לפונקציות -->
+          <button type="button" id="login" class="btn btn-primary" onclick="handle_login(event)">התחברות</button>
+      </form>      
+      </section>
+
+      <!-- סקשן לינקים -->
+      <section class="links">
+        <a href="register.html">חדש באתר? לחץ להרשמה</a>
+        <br>
+        <a href="reset.html">שכחתי סיסמה</a>
+      </section>
+    </div>
+
+<!---------------------- החלק התחתון של האתר - פוטר--------------------->
+    <footer>
+      <img src="images/emeky_logo.png" alt="לוגו מכללה" height="20px" width="20px">
+      <p>נוצר על ידי עומר גמליאל | תרגיל בית 1 טכנולוגיות אינטרנט</p>
+    </footer>
+    
+    <!-- קישור וייבוא בוטסטראפ וקובץ JS -->
+    <script src="JavaScript/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

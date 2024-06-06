@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.header_logo {
+    background-color: #333;
+    display: flex;
+    align-items: flex-start;
+}
+
+.welcome_message {
+    display: flex;
+    justify-content: center;
+    background-color: #d2d2d2;
+    text-align: center;
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .about_system {
+    background: linear-gradient(to right, #f0f0f0, #ccc);
+    border-radius: 10px;
+    text-align: center;
+}
+  
+  .about_system .title {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .about_system .text{
+    padding: 5px;
+  }
+
+.series_list img {
+    width: 100%;
+    height: auto;
+}
+
+.series_list .series1, .series2, .series3 {
+    display: grid;
+    margin: 0 auto;
+    background: linear-gradient(to top, #dfdfdf 20%, white 100%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.series_list h3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 1px 1px 0 0;
+    font-size: 23px;
+  }
+
+  .series_list h4 {
+font-size: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
